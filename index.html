@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Simple Profile</title>
+
+    <!-- Bootstrap CSS (CDN) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Project styles (separate file) -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Top header / page title -->
+    <header class="bg-white border-bottom">
+      <div class="container py-3">
+        <h1 class="h4 mb-0">Roman Pilnik</h1>
+        <!-- small nav for single-page sections -->
+        <nav class="mt-2">
+          <a class="me-2" href="#about">About</a>
+          <a class="me-2" href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main content area: single-page sections -->
+    <main class="container py-4">
+      <!-- About section -->
+      <section id="about" class="mb-4">
+        <!-- comment: short intro about yourself -->
+        <h2 class="h5">About</h2>
+        <p class="text-muted">
+          I'm Roman, a computer science student, currently studying at HIT. I
+          have strong fundamentals in software development and a growing focus
+          on full-stack engineering. I enjoy building practical, well-structured
+          applications—from productivity tools to fitness and tracking
+          platforms—and I'm continuously improving my skills in Python,
+          JavaScript, Node.js, Express, React, and databases. I approach
+          projects with a balance of clean architecture, problem-solving, and
+          attention to detail, and I'm always looking to learn new technologies
+          and refine my craft.
+        </p>
+      </section>
+
+      <!-- Skills section -->
+      <section id="skills" class="mb-4">
+        <!-- comment: list key skills -->
+        <h2 class="h5">Skills</h2>
+        <p>
+          • Strong foundation in software development and computer science<br />
+          • Practical experience with JavaScript, Python, Node.js, Express, and
+          React<br />
+          • Solid understanding of MongoDB, database design, and building REST
+          APIs<br />
+          • Ability to structure projects with clean architecture and
+          maintainable code<br />
+          • Confident working with Git, debugging workflows, and modern
+          development practices<br />
+          • Experience creating user-focused interfaces and full-stack
+          applications
+        </p>
+      </section>
+
+      <!-- project section -->
+      <section id="projects" class="mb-4">
+        <h2 class="h5">Projects</h2>
+        <ul>
+          <li>
+            <strong>Fitness Training App</strong> |
+            <em>Full-Stack Web Application</em>
+          </li>
+          <li>
+            Intelligent workout management system that algorithmically generates
+            progressive training programs based on user performance feedback and
+            periodization principles
+          </li>
+          <li>
+            Built with React, Node.js/Express, and MongoDB; implements
+            context-aware algorithms for dynamic volume, intensity, and fatigue
+            management without ML dependencies
+          </li>
+          <li>
+            Designed for analytical gym-goers seeking data-driven training
+            optimization with automated progression planning
+          </li>
+          <li>
+            Demonstrates production-grade architecture including proper
+            separation of concerns, scalable data modeling, and
+            industry-standard development practices
+          </li>
+          <li>
+            Solo-developed portfolio project showcasing full-stack capabilities
+            and complex algorithmic problem-solving
+          </li>
+        </ul>
+      </section>
+
+      <!-- Contact section with simple form & button -->
+      <section id="contact" class="mb-4">
+        <h2 class="h5">Contact</h2>
+
+        <!-- comment: basic email link and a button wired in script.js -->
+        <p>
+          Email:
+          <a href="mailto:roman.pilnik.dev@gmail.com"
+            >roman.pilnik.dev@gmail.com</a
+          >
+        </p>
+        <p>
+          LinkedIn:
+          <a
+            href="https://www.linkedin.com/in/roman-pilnik/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Roman Pilnik
+          </a>
+        </p>
+        <p>
+          GitHub:
+          <a
+            href="https://github.com/romanPilnik"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            romanPilnik
+          </a>
+        </p>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-light border-top py-3">
+      <div class="container text-center small text-muted">
+        &copy; 2025 Firstname Lastname — simple school project
+      </div>
+    </footer>
+
+    <!-- Optional: Bootstrap bundle for components (Popper included) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Project script (separate file) -->
+    <script src="script.js"></script>
+  </body>
+</html>
